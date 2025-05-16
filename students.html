@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grades Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #0044cc;
+      color: #fff;
+    }
+    .fail {
+      background-color: #ffe0e0;
+      color: red;
+    }
+    .pass {
+      background-color: #e0ffe0;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Student Grades Report</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Full Name</th>
+        <th>Math</th>
+        <th>English</th>
+        <th>Programming</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Student rows start -->
+      <tr><td>1</td><td>Khalilov Aydin</td><td>78</td><td>82</td><td>85</td><td class="pass">Pass</td></tr>
+      <tr><td>2</td><td>Aziz Abbasov</td><td>67</td><td>60</td><td>55</td><td class="pass">Pass</td></tr>
+      <tr><td>3</td><td>Amina Abdullayeva</td><td>48</td><td>52</td><td>40</td><td class="fail">Fail</td></tr>
+      <tr><td>4</td><td>Ulduz agaeva</td><td>85</td><td>88</td><td>91</td><td class="pass">Pass</td></tr>
+      <tr><td>5</td><td>Kenan Agayev</td><td>60</td><td>55</td><td>58</td><td class="pass">Pass</td></tr>
+      <tr><td>6</td><td>Aysu Alipashayeva</td><td>35</td><td>42</td><td>39</td><td class="fail">Fail</td></tr>
+      <tr><td>7</td><td>Rashad Aliyev</td><td>70</td><td>75</td><td>80</td><td class="pass">Pass</td></tr>
+      <tr><td>8</td><td>Madina Aliyeva</td><td>90</td><td>85</td><td>88</td><td class="pass">Pass</td></tr>
+      <tr><td>9</td><td>Habiba Balakishiyeva</td><td>45</td><td>48</td><td>50</td><td class="fail">Fail</td></tr>
+      <tr><td>10</td><td>Musa Baxşiyev</td><td>77</td><td>70</td><td>65</td><td class="pass">Pass</td></tr>
+      <tr><td>11</td><td>Nihat Cəfərli</td><td>95</td><td>92</td><td>90</td><td class="pass">Pass</td></tr>
+      <tr><td>12</td><td>Kamran Gasanov</td><td>39</td><td>45</td><td>41</td><td class="fail">Fail</td></tr>
+      <tr><td>13</td><td>Narmin Gulmammadova</td><td>58</td><td>62</td><td>59</td><td class="pass">Pass</td></tr>
+      <tr><td>14</td><td>Roza Haşımlı</td><td>87</td><td>90</td><td>85</td><td class="pass">Pass</td></tr>
+      <tr><td>15</td><td>Aytac Maharramova</td><td>43</td><td>50</td><td>47</td><td class="fail">Fail</td></tr>
+      <tr><td>16</td><td>Zaur Askerov</td><td>66</td><td>70</td><td>72</td><td class="pass">Pass</td></tr>
+      <tr><td>17</td><td>Kanan Qasimzada</td><td>51</td><td>55</td><td>58</td><td class="pass">Pass</td></tr>
+      <tr><td>18</td><td>Beyim quseynzade</td><td>49</td><td>39</td><td>42</td><td class="fail">Fail</td></tr>
+      <tr><td>19</td><td>Nuray Shiraliyeva</td><td>93</td><td>90</td><td>94</td><td class="pass">Pass</td></tr>
+      <tr><td>20</td><td>Фуад Аббасов</td><td>58</td><td>61</td><td>64</td><td class="pass">Pass</td></tr>
+      <tr><td>21</td><td>Aygun Muradova</td><td>72</td><td>68</td><td>71</td><td class="pass">Pass</td></tr>
+      <tr><td>22</td><td>Kamal Pashayev</td><td>83</td><td>86</td><td>88</td><td class="pass">Pass</td></tr>
+      <tr><td>23</td><td>Leyla Ahmadzade</td><td>54</td><td>49</td><td>53</td><td class="fail">Fail</td></tr>
+      <tr><td>24</td><td>Nuray Masimova</td><td>69</td><td>70</td><td>75</td><td class="pass">Pass</td></tr>
+      <tr><td>25</td><td>Rufat Babayev</td><td>60</td><td>63</td><td>66</td><td class="pass">Pass</td></tr>
+      <tr><td>26</td><td>Məhəmməd Avdoev</td><td>39</td><td>40</td><td>35</td><td class="fail">Fail</td></tr>
+      <tr><td>27</td><td>Səməd Məmmədli</td><td>85</td><td>82</td><td>84</td><td class="pass">Pass</td></tr>
+      <tr><td>28</td><td>Nihat Tagizade</td><td>92</td><td>89</td><td>91</td><td class="pass">Pass</td></tr>
+      <tr><td>29</td><td>Kanan Ismayilzade</td><td>46</td><td>51</td><td>49</td><td class="fail">Fail</td></tr>
+      <!-- Student rows end -->
+    </tbody>
+  </table>
+</body>
+</html>
